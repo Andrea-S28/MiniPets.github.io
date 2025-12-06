@@ -44,7 +44,7 @@ There are three additional screens, Profile, Store, and Info. The Profile screen
 The individual screens are connected through Navigation Compose. By navigating through the screens this mirrors the concept of game areas commonly found in game design. Once the navigation is in, the entire game because an interactive loop. The player's pet can move, players can upgrade their pet's bedroom, and players can interact with their pet to earn coins!
 
 
-# Further Discussion & Conclusions
+# Further Discussion & Conclusions:
 
 In this project, we built MiniPets, a virtual-pet style Android application developed using Kotlin and Jetpack Compose in Android Studio. Instead of using traditional Android Views or a game loop, MiniPets relies entirely on state-driven UI, ViewModels, and Composable functions to simulate “game-like” behavior.
 Throughout the app, the primary game mechanics, such as updating pet stats, earning coins, and interacting with the store, are implemented using Compose state and coroutines inside the MiniPetsViewModel. This reactive approach means the UI automatically updates whenever the data changes, creating a smooth and responsive gameplay experience without needing a dedicated game engine.
@@ -127,6 +127,6 @@ MiniPets demonstrates that game concepts don’t always require a game engine. U
     
 It’s a great foundation that shows how modern Android tools can be used to produce playful, interactive experiences while keeping code modular, testable, and easy to extend.
 
-# GitHub Source Code
+# See Also:
 
 All of our pixel art was hand draw by the amazing Leah using https://www.piskelapp.com/
